@@ -1,9 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import ClientThing from "./client-thing";
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <ClientThing />
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;

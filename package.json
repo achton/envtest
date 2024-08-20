@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "next:compile": "next build --experimental-build-mode compile",
+    "next:generate": "next build --experimental-build-mode generate"
   },
   "dependencies": {
     "react": "^18",

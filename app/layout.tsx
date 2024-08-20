@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+console.log("process.env.TEST_VAR (layout.tsx): " + process.env.TEST_VAR);
+console.log("process.env.NEXT_PUBLIC_TEST_VAR (layout.tsx): " + process.env.NEXT_PUBLIC_TEST_VAR);
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
