@@ -1,9 +1,6 @@
-// client component for testing
-"use client";
+// server component
+export default function Thing() {
 
-export default function ClientThing() {
-
-  // print debug vars inside client component
   console.log("process.env.TEST_VAR (client-thing): " + process.env.TEST_VAR);
   console.log("process.env.NEXT_PUBLIC_TEST_VAR (client-thing): " + process.env.NEXT_PUBLIC);
 
@@ -12,7 +9,7 @@ export default function ClientThing() {
 
   return (
     <div>
-      <h3>Client Thing</h3>
+      <h3>Thing</h3>
       <p>
         <pre>TEST_VAR: {TEST_VAR}</pre>
         <pre>NEXT_PUBLIC_TEST_VAR: {PUBLIC_TEST_VAR}</pre>

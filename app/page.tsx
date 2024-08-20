@@ -1,10 +1,12 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Thing from "./thing"
 import ClientThing from "./client-thing";
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Thing />
       <ClientThing />
       <div className={styles.description}>
         <p>
